@@ -1,0 +1,201 @@
+*{
+  /* margin: 5%; */
+  padding: 0;
+}
+
+body{
+  background-color: white;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+/* Page Themes */
+.apkPagesTheme{
+  background-color: #ccdcff;
+}
+.apexPagesTheme{
+  background-color: #df9f9f;
+}
+.aboutparkourPagesTheme{
+  background-color: #acc9cb;
+}
+
+section{
+  padding-bottom: 20px;
+}
+
+section .title{
+  font-size: 32px;
+}
+
+li{
+  margin-left: 25px;
+}
+
+a{
+  color:green;
+  text-decoration: none;
+  margin: 0px;
+}
+a:hover {
+  text-decoration:underline;
+}
+
+h1{
+  text-align: center;
+}
+
+video {
+  width:90%;
+  padding-top: 11px;
+  display: block;  /* This and next line to center the video environment */
+  margin: auto;
+}
+.center{
+ text-align: center;
+}
+
+/* To include video from local files */
+.videoWrapper{
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  max-width: 1200px;
+  max-height: 660px;
+}
+
+.videoWrapper_mini{
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  max-width: 1200px;
+  max-height: 660px;
+}
+
+/* To embed video from online soures (youtube) */
+.iframeWrapper{
+  position: relative;
+  display: block;
+  width: 100%;
+  /* padding: 0; */
+  /* overflow: hidden; */
+  /* height: 0px; */
+  padding-bottom: 53%;
+  /* Depends on the aspect ration that needs to be dispayed */
+  padding-top: 25px;
+  content: "";
+  box-sizing: border-box;
+  max-width: 1200px;
+  max-height: 660px;
+
+  iframe{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 660px;
+  }
+
+}
+
+iframe{
+  border: none;
+  /* allowfullscreen: true; */
+}
+
+/* Images for list of links*/
+.itemContainer{
+  /* margin-left: 5%; */
+  background-color: lightgray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* width: 80%; */
+  min-height: 176px;             /*min pic height+2*border*/
+  border-radius: 15px;           /* To avoid sharp corners */
+  img{
+    width: 300px;
+    height: 170px;
+    float: left;
+    border-radius: 15px;
+    border: 3px solid red;
+    margin-right: 21px;
+  }
+}
+
+.itemText{
+  h2{
+    font-size: 41px;
+    padding: 3px;
+  }
+  p{
+    font-size: 17px;
+    padding: 3px;
+  }
+}
+
+.itemContainer4Book{
+  background-color: lightgray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 300px;             /*min pic height+2*border*/
+  border-radius: 15px;           /* To avoid sharp corners */
+  height: 456px;
+  img{
+    width: 300px;
+    height: 450px;
+    float: left;
+    border-radius: 15px;
+    border: 3px solid lightgreen;
+    margin-right: 21px;
+  }
+}
+
+span{
+  margin: 0px;
+}
+
+span.disclaimer {
+    color:#ff0000;
+    font-weight:bold;
+    background-color: gray;
+}
+
+span.emphasis{
+  font-weight:bold;
+}
+
+.games{
+  h3{
+  font-size: 32px;
+  text-align: center;
+  }
+}
+
+.apkItems{
+  background-color: lightgray;
+  padding-right: 0px;
+  padding-left: 0px;
+  /* margin-left: 10px; */
+  margin-right: 10px;
+}
+
+.column_fl_360p {
+  float: left;
+  width: 50%;
+  min-width: 360px;
+}
+
+.columnVid_fl_360p {
+  display: inline-block;
+  width: 48%;
+  min-width: 360px;
+  margin-right: 20px;
+  text-align: center;
+  align-content: center;
+}
